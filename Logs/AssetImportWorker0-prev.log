@@ -1,0 +1,574 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.29f1 (204d6dc9ae1c) revision 2116973'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Education' Language: 'en' Physical Memory: 32717 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 2021.3.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ZongyangMin/RA
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54333
+Successfully changed project path to: C:/Users/ZongyangMin/RA
+C:/Users/ZongyangMin/RA
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [44252] Host "[IP] 172.16.0.63 [Port] 0 [Flags] 2 [Guid] 3447794459 [EditorId] 3447794459 [Version] 1048832 [Id] WindowsEditor(7,JERRY-AW15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [44252] Host "[IP] 172.16.0.63 [Port] 0 [Flags] 2 [Guid] 3447794459 [EditorId] 3447794459 [Version] 1048832 [Id] WindowsEditor(7,JERRY-AW15) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 207.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.29f1 (204d6dc9ae1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 2021.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ZongyangMin/RA/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6800 XT (ID=0x73bf)
+    Vendor:   ATI
+    VRAM:     16338 MB
+    Driver:   31.0.22023.1014
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 2021.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 2021.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 2021.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 2021.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity 2021.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.012022 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 187.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.892 seconds
+Domain Reload Profiling:
+	ReloadAssembly (893ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (675ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (122ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (453ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (188ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.020982 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ZongyangMin\RA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ZongyangMin\RA\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 220.23 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.929 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1930ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1607ms)
+			LoadAssemblies (157ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (935ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (220ms)
+				BeforeProcessingInitializeOnLoad (198ms)
+				ProcessInitializeOnLoadAttributes (367ms)
+				ProcessInitializeOnLoadMethodAttributes (118ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 2.37 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5763 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 69 unused Assets / (2.1 MB). Loaded Objects now: 6208.
+Memory consumption went from 241.9 MB to 239.8 MB.
+Total: 5.217700 ms (FindLiveObjects: 0.623200 ms CreateObjectMapping: 0.172300 ms MarkObjects: 3.023300 ms  DeleteObjects: 1.397800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 519785.573863 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_12_Glop Slime.prefab
+  artifactKey: Guid(23dfc559f6345b641b78f622d0ac0b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_12_Glop Slime.prefab using Guid(23dfc559f6345b641b78f622d0ac0b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae37b0d31b6200eceeaf75f5feb2c930') in 0.044874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_58_Sword Block.prefab
+  artifactKey: Guid(d29931122be8d164786ae7fa243a3ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_58_Sword Block.prefab using Guid(d29931122be8d164786ae7fa243a3ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64a725fee3673db1de7c9fc696a5065d') in 0.008993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_56_Rock Turtle.prefab
+  artifactKey: Guid(41c375a3e0786cf45b1194f7fe68bbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_56_Rock Turtle.prefab using Guid(41c375a3e0786cf45b1194f7fe68bbfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854eeac19bffca1e17c4e7a31ffd60a7') in 0.008959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_80_81_82_Raptor.psd
+  artifactKey: Guid(1cf795dd76d7bd741bc724ce2aa82255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_80_81_82_Raptor.psd using Guid(1cf795dd76d7bd741bc724ce2aa82255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12853f6de9b730b14e90a36538a5db2a') in 0.038502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_50_Cactus.prefab
+  artifactKey: Guid(57571cfdaf5712644a51672ba73130df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_50_Cactus.prefab using Guid(57571cfdaf5712644a51672ba73130df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2487d4c9b8159e91d0fdda3e98ffa842') in 0.008943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_89_90_91_Shell.psd
+  artifactKey: Guid(103e06c030e50b64cb0a89253da87e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_89_90_91_Shell.psd using Guid(103e06c030e50b64cb0a89253da87e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db61cded6021c1cc59fa84672874c163') in 0.020727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_99_Hamy Alemerald.prefab
+  artifactKey: Guid(f010cb702f7fe4745964a3314fcff3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_99_Hamy Alemerald.prefab using Guid(f010cb702f7fe4745964a3314fcff3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5274e9dd892d2e03fc0e261ef8c8e0ac') in 0.009747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_54_Magma Turtle.prefab
+  artifactKey: Guid(b6165e167ec7cb548a9313249ce07d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_54_Magma Turtle.prefab using Guid(b6165e167ec7cb548a9313249ce07d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29088c498fc6e7e3fb6ca0dcc77a003') in 0.008993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Example/RoundedSq.png
+  artifactKey: Guid(c0796754809906948bdc30a291b7cf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Example/RoundedSq.png using Guid(c0796754809906948bdc30a291b7cf89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8584ebfbfd14a337ed88d9e47eabbf58') in 0.059496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_31_Fire Rabbit.prefab
+  artifactKey: Guid(a401e81adf04e274a8399804156131fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_31_Fire Rabbit.prefab using Guid(a401e81adf04e274a8399804156131fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81098610852c9226a7c6eeff4b099e51') in 0.008947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_8_Slime.prefab
+  artifactKey: Guid(40af068bb00a49c4b90757a19f3b2cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_8_Slime.prefab using Guid(40af068bb00a49c4b90757a19f3b2cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa1ff7900c1949d788fa81fd581951f') in 0.008441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_70_Armored Book.prefab
+  artifactKey: Guid(03d52494c8658174da0c27b6d6677bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_70_Armored Book.prefab using Guid(03d52494c8658174da0c27b6d6677bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecb39fa62097fbc26a01a12f7c01ee26') in 0.021051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_32_Lightning Rabbit.prefab
+  artifactKey: Guid(ec87eb26ab642834c894ad8b860fb494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_32_Lightning Rabbit.prefab using Guid(ec87eb26ab642834c894ad8b860fb494) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8329aa89d6b3bf29726943eb9947de6f') in 0.008161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_6_Beast Yeti.prefab
+  artifactKey: Guid(016acd627dcf3b1488bf6c7ef6835587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_6_Beast Yeti.prefab using Guid(016acd627dcf3b1488bf6c7ef6835587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e061b7d4820541a02baf132e2b3c4c') in 0.009720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_54_55_56_57_Turtle.psd
+  artifactKey: Guid(79218da57ca4ba843b0145125d86b605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_54_55_56_57_Turtle.psd using Guid(79218da57ca4ba843b0145125d86b605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec30cf124c91af0743033d7ad4387a7c') in 0.009430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_76_Extinct Ox.prefab
+  artifactKey: Guid(adc1b2da4b43bab4a8079697cf984570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_76_Extinct Ox.prefab using Guid(adc1b2da4b43bab4a8079697cf984570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8cb22369d2a250cc18aa01caf991dae') in 0.009967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_38_Fire Wolf.prefab
+  artifactKey: Guid(3a781656a965c2643a7b615195ef2deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_38_Fire Wolf.prefab using Guid(3a781656a965c2643a7b615195ef2deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5438fe1f7bba045a4e08127b50f362a1') in 0.009204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_1_2_3_4_Salamander2.psd
+  artifactKey: Guid(877e34b81c7dc0c44aff3e2205b00a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_1_2_3_4_Salamander2.psd using Guid(877e34b81c7dc0c44aff3e2205b00a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c1ae1f286359116ea25505d606fdfb') in 0.014325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_39_Bat.prefab
+  artifactKey: Guid(ecd85ba709005c84081e26be280cf3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_39_Bat.prefab using Guid(ecd85ba709005c84081e26be280cf3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98c5fd59327118d9912bf17f150d7e9') in 0.009090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_94_Cave Lizard.prefab
+  artifactKey: Guid(83d7dfbfc85d4f44f874608df15cbda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_94_Cave Lizard.prefab using Guid(83d7dfbfc85d4f44f874608df15cbda0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79effe0876e49d8b4add9ee014f74344') in 0.009405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_98_Hamy Alquartz.prefab
+  artifactKey: Guid(7c272b7e06ca52c4d9d2cad01375f134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_98_Hamy Alquartz.prefab using Guid(7c272b7e06ca52c4d9d2cad01375f134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98619923b1b23c53166b6f10467c9a8e') in 0.009462 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_62_63_64_Mushroom.psd
+  artifactKey: Guid(f6fc9dbcee4a12746ab365f689665f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_62_63_64_Mushroom.psd using Guid(f6fc9dbcee4a12746ab365f689665f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6470ed77e7c52331168b04ffbd99ee98') in 0.010234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_58_59_60_61_Block.psd
+  artifactKey: Guid(45db2426cc9b0e6468a285178168be3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_58_59_60_61_Block.psd using Guid(45db2426cc9b0e6468a285178168be3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6c88bd3bfb9bccd48d6f366d1465f1') in 0.019868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_78_Mummy.prefab
+  artifactKey: Guid(d5036c9d74687ef4c97c5fe906709b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_78_Mummy.prefab using Guid(d5036c9d74687ef4c97c5fe906709b52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318b4e43157d1b6689ab738687e9e0cc') in 0.019087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_100_Hamy Alsapphire.prefab
+  artifactKey: Guid(68b2c010a48ff6c4b84ef7b9e7a3d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_100_Hamy Alsapphire.prefab using Guid(68b2c010a48ff6c4b84ef7b9e7a3d631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7dd6a87468b911ff94c146168289b1c') in 0.008857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_89_Lake Shell.prefab
+  artifactKey: Guid(5fbb44579a86cce46916f631067de9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_89_Lake Shell.prefab using Guid(5fbb44579a86cce46916f631067de9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c78983ec5b2fd6512f28816715f5afd0') in 0.022077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_40_Green Bat.prefab
+  artifactKey: Guid(f2947a6b0a0cea64480db5a87f8cf5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_40_Green Bat.prefab using Guid(f2947a6b0a0cea64480db5a87f8cf5d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee4a017074734070e8d0bcb1f2bac2eb') in 0.008356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_36_Wolf.prefab
+  artifactKey: Guid(d44eb57c2adf93a47bec96874910edb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_36_Wolf.prefab using Guid(d44eb57c2adf93a47bec96874910edb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a791de2cbf0556b7e3d030b5e843ff') in 0.008682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_5_6_7_Yeti2.psd
+  artifactKey: Guid(93d1e5659e515cd4fb0f87263350af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_5_6_7_Yeti2.psd using Guid(93d1e5659e515cd4fb0f87263350af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b895a75ac2ddb6ece5eddf78f3abac3f') in 0.027657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_23_Floating Ice.prefab
+  artifactKey: Guid(d5bf1f284d07dbb42ad7b963d3085307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_23_Floating Ice.prefab using Guid(d5bf1f284d07dbb42ad7b963d3085307) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fa3056e453f0ea5b6be7a9c232448e2') in 0.007881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_16_Sword Shadow.prefab
+  artifactKey: Guid(062583818f0a53d4783e7b41f4681197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_16_Sword Shadow.prefab using Guid(062583818f0a53d4783e7b41f4681197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f389af08dfdc84dc9a37c4688a56f046') in 0.009042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_73_Corrupted Hero.prefab
+  artifactKey: Guid(1597eca36d217054092c1789065a6238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_73_Corrupted Hero.prefab using Guid(1597eca36d217054092c1789065a6238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceab2bb53eadd1b0db607af11679fac9') in 0.008265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_62_Mushroom.prefab
+  artifactKey: Guid(20468f744e7f84d45ac79e1ec8250b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_62_Mushroom.prefab using Guid(20468f744e7f84d45ac79e1ec8250b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bce56c720cb0ea4b8ceb2a41a658409') in 0.008836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_59_Red Block.prefab
+  artifactKey: Guid(9f0b28f3379ff6944b7af296fc111126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_59_Red Block.prefab using Guid(9f0b28f3379ff6944b7af296fc111126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51be8e711bdd46903a82e4ad94a990f') in 0.008276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014206 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_90_Dark Shell.prefab
+  artifactKey: Guid(4c46f24cc8a44324c8e052aec4905a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_90_Dark Shell.prefab using Guid(4c46f24cc8a44324c8e052aec4905a85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa30ad3aa0179996a7cfdbef623d96c7') in 0.008103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_96_Masked Iron.prefab
+  artifactKey: Guid(3b478cedf9951424eabb560874f63fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_96_Masked Iron.prefab using Guid(3b478cedf9951424eabb560874f63fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f9c4c19da229d3068bacfe1d3e95ce') in 0.012292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_2_Skulled Salamander.prefab
+  artifactKey: Guid(fb597a1de10392442a087e319c8e51c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_2_Skulled Salamander.prefab using Guid(fb597a1de10392442a087e319c8e51c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df9a0b50f634005dae7795c46b4129d') in 0.007951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_13_Stone Golem.prefab
+  artifactKey: Guid(2834462fc0578fa4781240e299b7809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_13_Stone Golem.prefab using Guid(2834462fc0578fa4781240e299b7809c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef19e3e089366cf317cbf7c2b5890d3') in 0.006098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_84_Armored Orc.prefab
+  artifactKey: Guid(910087cd0a1c1214f9342b4d7e53f74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_84_Armored Orc.prefab using Guid(910087cd0a1c1214f9342b4d7e53f74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cd4fd1f8fdc989907d9a41d23337f5') in 0.008854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_83_Warrior Orc.prefab
+  artifactKey: Guid(d92b7a5690df7bb45b34d06ac2975bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_83_Warrior Orc.prefab using Guid(d92b7a5690df7bb45b34d06ac2975bec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e5e39b2c07c59f3842759bb4b630dd') in 0.008391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_14_Magma Golem.prefab
+  artifactKey: Guid(03f014cfa2509e948bd5be568fb6d4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_14_Magma Golem.prefab using Guid(03f014cfa2509e948bd5be568fb6d4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '954491a8ad08ae07a1c9273a0109c760') in 0.010301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_18_Crescent Shadow.prefab
+  artifactKey: Guid(b0bd90d47a144ff4baa8f9b510dbeeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_18_Crescent Shadow.prefab using Guid(b0bd90d47a144ff4baa8f9b510dbeeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a86508f1dbcd62ab1b13f3b2edcfef2') in 0.008452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_93_Jungle Lizard.prefab
+  artifactKey: Guid(0c9df21c92729434d953769b70d95318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_93_Jungle Lizard.prefab using Guid(0c9df21c92729434d953769b70d95318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c79b3c5acd873834c3e5d387a2524a0c') in 0.008723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_88_Dark Snail.prefab
+  artifactKey: Guid(ec8573dedb0948343a2c23a51e58ca3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_88_Dark Snail.prefab using Guid(ec8573dedb0948343a2c23a51e58ca3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb88850ffe9ab3eafe2f5e7628dd87c1') in 0.027355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_83_84_85_Orc.psd
+  artifactKey: Guid(9e26a2af89f0ded4b8e7d912f03ed826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_83_84_85_Orc.psd using Guid(9e26a2af89f0ded4b8e7d912f03ed826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77b8069eb99172f8a1f31c3bc189f76') in 0.010197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_24_Floating Steel.prefab
+  artifactKey: Guid(3a1747dd7f76a7a489b16ce88f1269bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_24_Floating Steel.prefab using Guid(3a1747dd7f76a7a489b16ce88f1269bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80968cb14c74d2cdcac07484a06d0de4') in 0.007903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_55_Ice Turtle.prefab
+  artifactKey: Guid(c1462924ecb74af45bb53963a597b713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_55_Ice Turtle.prefab using Guid(c1462924ecb74af45bb53963a597b713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ace44835d22ed85901da3a290b9722a') in 0.009507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_43_Moon.prefab
+  artifactKey: Guid(88aab4579bfa3aa45818080d10d290d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_43_Moon.prefab using Guid(88aab4579bfa3aa45818080d10d290d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87ca8331845297857a4b82d3f9e2ae75') in 0.008072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_51_52_53_Crab.psd
+  artifactKey: Guid(077f21073b0feb842850219901639aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_51_52_53_Crab.psd using Guid(077f21073b0feb842850219901639aeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b84f4edd1b943f544af8bc63a749546') in 0.016916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_30_Grass Rabbit.prefab
+  artifactKey: Guid(0d0f4d441be0d5b4e847dbf4be6d960b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_30_Grass Rabbit.prefab using Guid(0d0f4d441be0d5b4e847dbf4be6d960b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a01fd0799c21a5bde8ce542b452abe70') in 0.008342 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_4_Armored Salamander.prefab
+  artifactKey: Guid(677ebe9435866144f9bedca9900de2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_4_Armored Salamander.prefab using Guid(677ebe9435866144f9bedca9900de2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad3bc50f60257cd992d6b35a49b0155') in 0.008675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_53_Magma Crab.prefab
+  artifactKey: Guid(00356cf945a2f0a4cb98473ec44f3891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_53_Magma Crab.prefab using Guid(00356cf945a2f0a4cb98473ec44f3891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05abbb30d4e92482e10645055d20692d') in 0.008358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_42_43_44_45_46_47_Planet.psd
+  artifactKey: Guid(df89efee9b0a3314b82687097659f8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_42_43_44_45_46_47_Planet.psd using Guid(df89efee9b0a3314b82687097659f8e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '656f82e2a81bdd65c19724cec44f1914') in 0.011068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_86_87_88_Snail.psd
+  artifactKey: Guid(75d5074ccbf725a4cb84468c613041da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_86_87_88_Snail.psd using Guid(75d5074ccbf725a4cb84468c613041da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf5b70d47c2f1673404dadb0ad3ecee') in 0.009644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_75_Evil Ox.prefab
+  artifactKey: Guid(5df461387028e6c40be1e5b14910fefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_75_Evil Ox.prefab using Guid(5df461387028e6c40be1e5b14910fefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58ddd6784114bf9354de1c3a7122936c') in 0.008386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_57_Grass Turtle.prefab
+  artifactKey: Guid(419584a03f41de9489561fdf2c63193b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_57_Grass Turtle.prefab using Guid(419584a03f41de9489561fdf2c63193b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b59ccf67e2dbc909fd00f4195f1c74') in 0.017606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_16_17_18_Shadow.psd
+  artifactKey: Guid(30d63cc740d4bec4292ac657db3595db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_16_17_18_Shadow.psd using Guid(30d63cc740d4bec4292ac657db3595db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '737e3f185557069ba698b11f88d61a64') in 0.015503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_66_Scythe Ghost.prefab
+  artifactKey: Guid(7577086e2b46cb94cb9b8f1fa9ae4326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_66_Scythe Ghost.prefab using Guid(7577086e2b46cb94cb9b8f1fa9ae4326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e029bfc7c180eab5837bafbbe0f14399') in 0.009805 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_34_Spring Tree.prefab
+  artifactKey: Guid(e6d8724c8fa548e4a87391ee8af1621b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_34_Spring Tree.prefab using Guid(e6d8724c8fa548e4a87391ee8af1621b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4acaa68e15b1ed06c4114e9ed93d028') in 0.010237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_10_Bird Slime.prefab
+  artifactKey: Guid(fa87eade57b59054b8597e260181d8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_10_Bird Slime.prefab using Guid(fa87eade57b59054b8597e260181d8b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0133898f4c4fd4519f6fe9dafcd946f7') in 0.009302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_69_Blue Book.prefab
+  artifactKey: Guid(48e6717b4a8dfa041821d471dc2db288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_69_Blue Book.prefab using Guid(48e6717b4a8dfa041821d471dc2db288) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df412d4c2e27b3daec02426a7435a341') in 0.009974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_74_75_76_Ox.psd
+  artifactKey: Guid(21c91217fa595854a99c5505262f314a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_74_75_76_Ox.psd using Guid(21c91217fa595854a99c5505262f314a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54144200d729f1e552fe80c81a206f8') in 0.021801 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_41_Fluffy Bat.prefab
+  artifactKey: Guid(38d1a06c1a2e81b4b89f2b69bacb1dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_41_Fluffy Bat.prefab using Guid(38d1a06c1a2e81b4b89f2b69bacb1dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4779e81184d0409321365f589240df74') in 0.010354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_71_Corrupted Knight.prefab
+  artifactKey: Guid(9a9d79ca55f008a48b6e361d1686897d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_71_Corrupted Knight.prefab using Guid(9a9d79ca55f008a48b6e361d1686897d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3937edc550a3cc1c483b6747dfb76370') in 0.009987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_74_Mad Ox.prefab
+  artifactKey: Guid(a4b1548563c73d44f8748deb56cbde3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_74_Mad Ox.prefab using Guid(a4b1548563c73d44f8748deb56cbde3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f2ac43195b24348a4ad396e738f08f7') in 0.010559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_98_99_100_Keeper.psd
+  artifactKey: Guid(f181cb838b5697d4fbf7da871d1ae030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Source_PSD/Monster_98_99_100_Keeper.psd using Guid(f181cb838b5697d4fbf7da871d1ae030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b1fffba92101ab2c79f45037de22a9') in 0.018885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_80_Jungle Raptor.prefab
+  artifactKey: Guid(54026fb0eda14324e968450b51549b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4Direction Animated 2D Monsters (Fantazia Top Down)/Prefabs/Monster_80_Jungle Raptor.prefab using Guid(54026fb0eda14324e968450b51549b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0dfef452b7d37ced24fbf3515d529c') in 0.010460 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
